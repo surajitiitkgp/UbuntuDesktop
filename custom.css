@@ -1,0 +1,55 @@
+	html{height:100%;}
+	body{
+		background: linear-gradient(to top right, #61073d, #e64c0e) no-repeat;
+		height: 100%;
+	}
+	.shutdown{color:#e9e7e7;}
+	.header{height:8%;}
+	.desktop{height:92%;overflow:hidden;}
+	.navbar{
+		height: 30px;
+		background: #00000038;
+		padding: 0;
+		margin: 0px;
+	}	
+	.navbar .dropdown-menu{
+		left:-40px;
+		min-width:0px;
+		background: #00000038;
+		border-top:none;
+	}
+	.navbar .dropdown .dropdown-item:hover{background:#38373785;}
+	.nav-link{padding:0px;}
+	
+	.fa-custom{color:#e9e7e7;}
+	.fa-icons{text-align:center;}
+	.fa-icons:before{font-size: 40px;}
+	.fa-icons > label{display:block;padding:4px 0;}
+	#clock{color:#e9e7e7;font-weight:600;}
+	.icons-list{
+		width: 8.33%;
+		display: inline-grid;
+		word-break: break-all;
+		margin: 6px 2px;
+		padding: 10px 0;
+		font-size:14px;
+	}
+	.icons-list:hover{
+		box-shadow: 0px 0px 2px 1px #ccc;
+		border-radius: 4px;		
+	}
+	.icons-list:hover >.fa-icons:before{
+		color:#e9e7e7;
+	}
+	.icons-list.context-menu-active{background:#00000038;}
+	.icons-list-group{display: contents;}
+	.trash-modal{max-width:100%;}
+	#trash-body{
+		padding: 5px;
+		background: #01010142;
+	}
+	#trash-body .modal-header{
+		padding: 5px;
+		box-shadow: 0px 1px 3px 1px #ccc;
+		background: #ddd;
+	}	
