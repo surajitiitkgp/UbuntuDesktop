@@ -1,5 +1,14 @@
 <%@ page import="java.util.*,java.io.*" %>
 <!DOCTYPE html>
+<%
+File dataDir = new File(request.getRealPath("/data/"));
+File trashDir = new File(request.getRealPath("/trash/"));
+if(!dataDir.exists())
+	dataDir.mkdirs();
+if(!trashDir.exists())
+	trashDir.mkdirs();
+
+%>
 <!--
 Author: Surajit Kundu
 Email: surajit.113125@gmail.com
