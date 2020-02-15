@@ -9,11 +9,11 @@ Create web desktop - UI like Ubuntu 18.04.
   
   The `index.jsp` file provides the graphical user interface (GUI), which looks like desktop view of ubuntu 18.04. 
   The `custom.css` file provides the the css for `index.jsp` page.
-  The `custom.js` file provides two context menu, one is used for creating folder and file, another is used for deleteing the folder/file. One digital clock is also implemented through the javascript, the corresponding code is also incorporated.
+  The `custom.js` file provides two context menu, one is used for creating folder and file, another is used for deleteing the folder/file.  One digital clock is also implemented through the javascript, the corresponding code is also incorporated.
   The functional operations are executed by the `ceate.jsp` file.
   
-  ### Installation and running process
-   #### -- Install Tomcat7 or upper version
+  ### Installation and running process:
+   #### -- Install Tomcat7 or upper version.
    #### -- Copy the UbuntuDesktop package in the webapps folder (`Tomcat x.y\webapps\UbuntuDesktop`).
-   #### -- Run Tomcat server
-   #### -- Open http://localhost:8080/UbuntuDesktop
+   #### -- Run Tomcat server.
+   #### -- Open http://localhost:8080/UbuntuDesktop/ in browser.
